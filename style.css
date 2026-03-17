@@ -645,17 +645,20 @@ footer a:hover {
 
 /* Split Hero Layout */
 .hero-split {
-  padding: calc(3rem + 60px) 0 4rem;
+  padding: 110px 0 2.5rem; /* Reduced space: ~1-2 line breaks below header */
   background: var(--primary-color);
+  background: linear-gradient(135deg, #092F75 0%, #051b44 100%);
   color: white;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .hero-split .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  grid-template-columns: 1.1fr 0.9fr; /* Adjusted ratio for better balance */
+  gap: 5rem;
   align-items: center;
 }
 
@@ -666,15 +669,17 @@ footer a:hover {
 
 .hero-split-content h1 {
   color: white;
-  font-size: 3.5rem;
+  font-size: 4rem; /* Slightly larger for impact */
   line-height: 1.1;
   margin-bottom: 1.5rem;
+  font-weight: 800;
 }
 
 .hero-split-content .lead {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.85); /* Slightly softer white */
+  font-size: 1.4rem;
   margin-bottom: 2.5rem;
+  line-height: 1.6;
 }
 
 .hero-split-video {
@@ -683,14 +688,16 @@ footer a:hover {
   height: auto;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transform: perspective(1000px) rotateY(-5deg);
-  transition: transform 0.5s ease;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), 0 0 40px rgba(40, 90, 157, 0.3); /* Enhanced shadow and glow */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Glassmorphism border */
+  transform: perspective(1000px) rotateY(-8deg) rotateX(2deg); /* Slightly more aggressive 3D effect */
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  background: #000;
 }
 
 .hero-split-video:hover {
-  transform: perspective(1000px) rotateY(0deg);
+  transform: perspective(1000px) rotateY(0deg) rotateX(0deg) scale(1.02);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6), 0 0 50px rgba(40, 90, 157, 0.4);
 }
 
 .hero-split-video video {
@@ -734,6 +741,11 @@ footer a:hover {
   :root {
     --spacing-lg: 3rem;
     --spacing-xl: 5rem;
+  }
+
+  .section {
+    padding: 1.75rem 0;
+    /* Reduced section padding on mobile to tighten vertical gaps */
   }
 
   .nav-links {
