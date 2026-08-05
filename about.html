@@ -7,23 +7,22 @@
     <title>About AllZiva | Built on Integrity. Committed to You.</title>
     <meta name="description"
         content="Allziva is an operations-focused infrastructure company built for systems that must perform reliably every day.">
-    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <header>
         <div class="container nav-container">
-
-
             <nav>
                 <div class="mobile-menu-btn">☰</div>
                 <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#services">Services</a></li>
-                    <li><a href="/about.html" class="active">About Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
                     <li><a href="contact.html" class="btn btn-primary btn-sm">Contact Us</a></li>
                 </ul>
             </nav>
@@ -44,13 +43,282 @@
             <div class="container">
                 <div class="fade-in-up">
                     <p class="lead" style="margin-bottom: var(--spacing-sm);">We think long-term, invest boldly, and
-                        empower entrepreneurs to create - lasting value that improves lives.</p>
+                        empower entrepreneurs to create lasting value that improves lives.</p>
                     <p>From operating live environments, we’ve learned a simple truth: <strong>most infrastructure
                             failures don’t come from bad technology. They happen when responsibility fades after
                             deployment.</strong></p>
                     <p>Our work exists to prevent that. We design, deploy, and remain accountable for operational
                         systems so your business runs with fewer surprises, clearer ownership, and steadier outcomes.
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Profile -->
+        <section class="section bg-light founder-profile-section">
+            <div class="container">
+                <div class="grid-2 fade-in-up">
+                    <div class="founder-bio">
+                        <span class="eyebrow">Founder’s Profile</span>
+                        <h2>Mr. Ramachandran Palappalayam Rakkiyannan (Ram)</h2>
+                        <p class="role">Founder & Principal – Allziva</p>
+
+                        <p>Ram is a systems and safety engineering professional with more than 16 years of progressive experience helping safety-critical technologies move from design to real-world deployment. His work spans aerospace, automotive autonomy, battery and energy systems, semiconductors, robotics, and AI-enabled autonomous systems.</p>
+
+                        <p>Across his career, Ram has contributed to high-accountability programs at NVIDIA, General Motors, XALT Energy, Bombardier Aerospace, Rockwell Collins, and UTC Aerospace/HCL. His work has focused on functional safety, system and software safety, certification readiness, hazard analysis, validation evidence, and operational risk management for systems where failures can carry real human, financial, and infrastructure consequences.</p>
+
+                        <p>At NVIDIA, Ram works on autonomous safety certification for AI-driven autonomous systems. His role includes safety-process assessments, safety-compliance reviews, training, gap analysis, and support for engineering activities aligned with safety standards such as ISO 26262, IEC 61508, and related functional-safety frameworks. NVIDIA’s 2021 National Interest Exception support letter recognized his role as critical to automotive safety projects and tied his work to U.S. critical infrastructure.</p>
+
+                        <p>Ram founded Allziva to bring this safety discipline to the next generation of physical AI systems, including humanoid robotics, autonomous vehicles, autonomous trucking, intelligent industrial automation, and human-machine collaborative systems. Allziva’s mission is to help innovators build systems that are not only intelligent, but safe, reliable, certifiable, and ready for real-world use.</p>
+                        
+                        <p style="margin-top: 2rem;">His approach is guided by a giver’s mindset: strengthening teams, sharing practical knowledge, and building systems that create lasting impact rather than short-term wins.</p>
+                    </div>
+
+                    <div class="founder-sidebar">
+                        <div class="highlight-box">
+                            <h3>Philosophy</h3>
+                            <p class="belief-text">What shaped Allziva’s philosophy most is not the technology itself, but
+                                what Ram repeatedly observed after deployment: systems often fail not because they were
+                                poorly designed, but because ownership, processes, and accountability weaken over time.</p>
+
+                            <h4>His expertise covers:</h4>
+                            <ul class="feature-list">
+                                <li>AI safety and deployment assurance</li>
+                                <li>Autonomous systems and robotics safety</li>
+                                <li>Functional safety under ISO 26262, IEC 61508, and ISO 21448/SOTIF</li>
+                                <li>Hazard analysis, FMEA, FTA, SOTIF, and safety-case development</li>
+                                <li>Certification readiness and validation evidence management</li>
+                                <li>System architecture, operational risk, and long-term reliability</li>
+                            </ul>
+                        </div>
+
+                        <div class="mission-box">
+                            <strong>Ram’s Role at Allziva:</strong>
+                            <p>To ensure the company stays built on integrity and committed to customers — especially when
+                                systems are live, pressure is real, and reliability truly matters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Team -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center fade-in-up">
+                    <h2>Our Leadership Team</h2>
+                    <p class="lead" style="max-width: 700px; margin: 0 auto; margin-bottom: 3rem;">Guided by experience, driven by integrity.</p>
+                </div>
+
+                <div class="team-grid stagger-children">
+                    <!-- Founder -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./ram.jpeg" alt="Ramachandran Palappalayam">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Ramachandran Palappalayam</h3>
+                                    <div class="member-role">Founder</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Ramachandran Palappalayam</h3>
+                                    <div class="back-role">Founder</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">A visionary leader with 16+ years driving innovation across aerospace, automotive autonomy, energy systems, robotics, and AI. Experienced at shaping strategy and delivering results at NVIDIA, General Motors, XALT Energy, Bombardier Aerospace, Rockwell Collins, and HCL America. Known for building high-performing teams, fostering cross-functional collaboration, and steering safety-critical programs to deliver reliable, scalable, and transformative solutions.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Co-Founder -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./aravinth.jpg" alt="Aravinth Guru Palanisamy">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Aravinth Guru Palanisamy</h3>
+                                    <div class="member-role">Co-Founder</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Aravinth Guru Palanisamy</h3>
+                                    <div class="back-role">Co-Founder</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">An enthusiastic and detail-oriented professional with a background in Electrical and Electronics Engineering and exposure to data analytics, currently working towards a BCA to strengthen programming and business application skills, with hands-on experience in Python, statistics, and machine learning through training and internships, actively engaged in technical learning initiatives and industry exposure, and recognized for strong problem-solving ability, adaptability, and effective coordination skills that support continuous learning and professional growth.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- HR & Finance -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./sayyada.jpeg" alt="Sayyada Farath Jahan">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Sayyada Farath Jahan</h3>
+                                    <div class="member-role">HR & Finance Lead</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Sayyada Farath Jahan</h3>
+                                    <div class="back-role">HR & Finance Lead</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">An HR and Operations professional with 6+ years of experience in recruitment, payroll, finance coordination, and procurement, currently working towards a B.Com to strengthen financial and business expertise, with proven ability in managing end-to-end HR processes, compliance, and documentation while driving operational efficiency, and recognized for strong analytical thinking, effective coordination, and people management skills that contribute to overall organizational growth and performance.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advisor 1 -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./cheliyan.png" alt="Ilanchezhian">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Ilanchezhian</h3>
+                                    <div class="member-role">Vice President – Sales & Marketing</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Ilanchezhian</h3>
+                                    <div class="back-role">Vice President – Sales & Marketing</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">A results-driven Vice President – Sales & Marketing with 16+ years of experience in sales, channel management, and business development, with a proven track record at leading brands like LG Electronics, Samsung, and Johnson Controls-Hitachi. Holds an MBA in Marketing & Operations with an Engineering background. Skilled in driving market expansion, building strong partner networks, and delivering consistent business growth through</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Embedded Hardware Head -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./chinnadurai.jpeg" alt="Chinnadurai">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Chinnadurai</h3>
+                                    <div class="member-role">Embedded Hardware Head</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Chinnadurai</h3>
+                                    <div class="back-role">Embedded Hardware Head</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">A technology-driven Embedded Hardware professional with a Master’s degree in Power Electronics and Drives and 16+ years of experience in designing advanced embedded systems, IoT-based solutions, industrial controllers, and smart automation products. Experienced in leading R&D initiatives and delivering innovative hardware solutions for industrial and commercial applications.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Advisor 2 -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <span>SR</span>
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Suresh Rajamani</h3>
+                                    <div class="member-role">Advisor</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Suresh Rajamani</h3>
+                                    <div class="back-role">Advisor</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text empty-desc"></p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Business Leader Trainee -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./jaisree.jpeg" alt="Jaisree">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Jaisree</h3>
+                                    <div class="member-role">Business Trainee</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Jaisree</h3>
+                                    <div class="back-role">Business Trainee</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">A motivated and growth-oriented professional with a Diploma in Computer Engineering and a strong academic background. Currently working as a Business Trainee Leader at Allziva, gaining practical experience while enhancing technical and professional skills. Focused on delivering innovative solutions that contribute to organizational growth. Known for adaptability, dedication, and a results-driven mindset.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Humanoid Robotics Intern -->
+                    <div class="team-member" tabindex="0" onclick="this.classList.toggle('flipped')" onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); this.classList.toggle('flipped'); }">
+                        <div class="team-member-inner">
+                            <div class="member-front">
+                                <div class="member-image">
+                                    <img src="./thanish.jpeg" alt="Thanish">
+                                </div>
+                                <div class="member-info">
+                                    <h3 class="member-name">Thanish</h3>
+                                    <div class="member-role">Humanoid Robotics Intern</div>
+                                </div>
+                            </div>
+                            <div class="member-back">
+                                <div class="member-back-content">
+                                    <h3 class="back-name">Thanish</h3>
+                                    <div class="back-role">Humanoid Robotics Intern</div>
+                                    <div class="back-divider"></div>
+                                    <div class="member-back-scroll">
+                                        <p class="profile-desc-text">Aspiring Humanoid Robotics Intern with a strong foundation in AI, Robotics, and software development, currently pursuing AI & Robotics studies. Experienced in robotics system development, including quadruped robots, AI planning models, and assistive technologies. Skilled in programming, data structures, algorithms, and hardware–software integration. Passionate about humanoid robotics, automation, and building real-world AI-driven solutions.</p>
+                                    </div>
+                                    <span class="back-tap-hint">Tap to Flip Back</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -70,11 +338,11 @@
                         <p>We design, deploy, and operate operational systems such as:</p>
                         <ul class="feature-list">
                             <li>Automated self-service laundromats</li>
-
+                            <li>Plug-and-play UPI payment integrations</li>
+                            <li>Modernizing legacy hardware for digital transactions</li>
                             <li>Practical, use-case-driven robotics deployments</li>
                         </ul>
-                        <p>Our involvement continues after go-live — because that’s when systems are actually tested.
-                        </p>
+                        <p>Our involvement continues after go-live — because that’s when systems are actually tested.</p>
                     </div>
 
                     <div class="highlight-box fade-in-up">
@@ -144,207 +412,79 @@
             </div>
         </section>
 
-        <!-- Target Audience & Verdict -->
+        <!-- Assessment & Fit -->
         <section class="section bg-light">
             <div class="container">
+                <!-- 1. Fits Best & Not Suit -->
                 <div class="grid-2 fade-in-up">
                     <div>
-                        <h3>Where This Approach Works Best</h3>
-                        <p>Allziva is a strong fit if you:</p>
+                        <h3>Where Allziva Fits Best</h3>
+                        <p>Allziva is designed for real-world systems where reliability, structure, and long-term performance matter.</p>
+                        <p>We are a strong fit for organizations that:</p>
                         <ul class="feature-list">
-                            <li>Operate live, uptime-sensitive environments</li>
-                            <li>Want fewer vendors and clearer accountability</li>
-                            <li>Value stability over shortcuts</li>
-                            <li>Prefer disciplined execution over aggressive promises</li>
+                            <li>Run continuous, operational environments that cannot afford downtime</li>
+                            <li>Prefer structured systems with clear responsibility and ownership</li>
+                            <li>Focus on long-term stability rather than short-term shortcuts</li>
+                            <li>Value disciplined execution over fast, unmanaged deployment</li>
                         </ul>
-                        <p><strong>Common environments include:</strong> Hostels, PGs, and student housing; Apartment
-                            communities; Commercial buildings; Institutions, warehouses, and facilities.</p>
+                        <p style="margin-top: 1rem; font-weight: 500;"><strong>Typical environments include:</strong> Hostels, PGs, student housing, apartment communities, commercial buildings, institutions, warehouses, and managed facilities.</p>
                     </div>
-
                     <div>
-                        <h3>Who This Is Not For (Important)</h3>
-                        <p>This model may not be right if you:</p>
+                        <h3>Who This Model May Not Suit</h3>
+                        <p>This approach may not be ideal if you:</p>
                         <ul class="feature-list">
-                            <li>Want the lowest upfront cost at any price</li>
-                            <li>Prefer one-time installation with no ongoing responsibility</li>
-                            <li>Expect immediate deployment without planning discipline</li>
-                            <li>View operations as “post-project” work</li>
+                            <li>Are looking only for the lowest initial cost</li>
+                            <li>Expect a one-time setup with no ongoing system involvement</li>
+                            <li>Need instant deployment without planning or structure</li>
+                            <li>Prefer highly flexible, unstructured execution models</li>
                         </ul>
-                        <p>We state this clearly to avoid misalignment later.</p>
+                        <p style="font-style: italic; margin-top: 1rem;">We mention this clearly to ensure the right fit from the beginning.</p>
                     </div>
                 </div>
 
-                <div class="grid-2" style="margin-top: var(--spacing-md);">
-                    <div class="card fade-in-up">
-                        <h3>Pros & Cons (Transparent View)</h3>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <!-- 2. Working Philosophy & Transparency -->
+                <div class="grid-2 fade-in-up" style="margin-top: var(--spacing-lg);">
+                    <div class="card">
+                        <h3>Our Working Philosophy</h3>
+                        <p>Allziva systems are not just installations—they are long-term operational solutions.</p>
+                        <p>We focus on:</p>
+                        <ul class="feature-list">
+                            <li>Stability over speed-only delivery</li>
+                            <li>Ownership clarity instead of fragmented responsibility</li>
+                            <li>Structured rollout instead of ad-hoc execution</li>
+                            <li>Real-world usability over theoretical features</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Transparency in Approach</h3>
+                        <p>Every model has trade-offs. Our goal is to be clear about them from day one.</p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
                             <div>
-                                <h5 style="color: var(--primary-color);">Pros</h5>
+                                <h5 style="color: var(--primary-color);">Strengths</h5>
                                 <ul class="feature-list" style="font-size: 0.9rem;">
-                                    <li>One accountable partner after go-live</li>
-                                    <li>Fewer operational surprises</li>
-                                    <li>Systems designed for long-term use</li>
-                                    <li>Clear escalation and ownership</li>
+                                     <li>Reliable, system-driven execution</li>
+                                     <li>Clear accountability after deployment</li>
+                                     <li>Designed for long-term operations</li>
                                 </ul>
                             </div>
                             <div>
-                                <h5 style="color: var(--text-light);">Cons</h5>
-                                <ul
-                                    style="list-style: disc; padding-left: 1.5rem; font-size: 0.9rem; color: var(--text-body);">
-                                    <li>Slower upfront planning than quick installs</li>
-                                    <li>Not the cheapest option</li>
-                                    <li>Requires operational collaboration</li>
+                                <h5 style="color: var(--text-light);">Limitations</h5>
+                                <ul style="list-style: disc; padding-left: 1.2rem; font-size: 0.9rem; color: var(--text-body);">
+                                     <li>Requires structured planning before rollout</li>
+                                     <li>Not positioned as the cheapest option</li>
+                                     <li>Works best with active coordination during implementation</li>
                                 </ul>
                             </div>
                         </div>
-                        <p style="margin-top: 1rem; font-style: italic; font-size: 0.9rem;">We believe trust is built by
-                            stating trade-offs openly.</p>
-                    </div>
-
-                    <div class="card fade-in-up" style="background-color: var(--primary-color); color: white;">
-                        <h3 style="color: white;">Verdict (Straightforward)</h3>
-                        <p style="color: rgba(255,255,255,0.9);">If your priority is predictable operations and
-                            long-term reliability, Allziva is designed for that responsibility.</p>
-                        <p style="color: rgba(255,255,255,0.9);">If you’re looking for fast installs and minimal
-                            involvement after handover, another provider may suit you better — and that’s okay.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Founder Profile -->
-        <section class="section">
-            <div class="container">
-                <div class="grid-2 fade-in-up" style="align-items: center;">
-                    <div>
-                        <span class="eyebrow">Founder’s Profile</span>
-                        <h2>Mr. Ramachandran Palappalayam Rakkiyannan (Ram)</h2>
-                        <p class="role" style="color: var(--text-light); font-weight: 500; text-transform: uppercase;">
-                            Founder & Principal – Allziva</p>
-
-                        <p>Ram is a systems and safety engineering professional with over 26 years of hands-on
-                            experience working in environments where failures are not theoretical — they carry real
-                            operational, financial, and human consequences.</p>
-
-                        <p>Across his career in aerospace, automotive, semiconductors, robotics, and autonomous systems,
-                            Ram has worked on complex, high-accountability programs at organizations including NVIDIA,
-                            General Motors, XALT Energy, Bombardier Aerospace, Rockwell Collins, and UTC Aerospace.</p>
-
-                        <p>His work has spanned systems, hardware, and software, with a consistent focus on safety,
-                            reliability, and operational integrity.</p>
-                    </div>
-
-                    <div class="highlight-box">
-                        <h3>Philosophy</h3>
-                        <p class="belief-text">What shaped Allziva’s philosophy most is not the technology itself, but
-                            what Ram repeatedly observed after deployment: systems often fail not because they were
-                            poorly designed, but because ownership, processes, and accountability weaken over time.</p>
-
-                        <h4>His expertise covers:</h4>
-                        <ul class="feature-list" style="font-size: 0.9rem;">
-                            <li>Systems & Safety Engineering</li>
-                            <li>System Assurance and operational risk management</li>
-                            <li>SOP design and execution discipline</li>
-                            <li>Automation, AI safety, and robotics readiness</li>
-                            <li>Process design for long-term reliability</li>
-                        </ul>
                     </div>
                 </div>
 
-                <div class="fade-in-up" style="margin-top: var(--spacing-md);">
-                    <p>These foundations inform how Allziva operates today — building infrastructure that remains
-                        dependable after go-live, not just during approval or launch.</p>
 
-                    <p>Beyond commercial work, Ram is actively involved in mentoring engineering students through the
-                        SAE network, including students from MIT, Stanford, and other leading universities, helping them
-                        bridge the gap between academic design and real-world operational responsibility.</p>
-
-                    <p>He is deeply interested in humanoid robotics, responsible AI deployment, and long-term value
-                        creation — both in engineering systems and in businesses.</p>
-
-                    <p>His approach is guided by a giver’s mindset: strengthening teams, sharing practical knowledge,
-                        and building systems that create lasting impact rather than short-term wins.</p>
-
-                    <div class="mission-box" style="margin-top: 2rem;">
-                        <strong>Ram’s Role at Allziva:</strong>
-                        <p>To ensure the company stays built on integrity and committed to customers — especially when
-                            systems are live, pressure is real, and reliability truly matters.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Leadership Team -->
-        <section class="section bg-light">
-            <div class="container">
-                <div class="text-center fade-in-up">
-                    <h2>Our Leadership Team</h2>
-                    <p class="lead" style="max-width: 700px; margin: 0 auto;">Guided by experience, driven by integrity.
-                    </p>
-                </div>
-
-                <div class="team-grid stagger-children">
-                    <!-- Founder -->
-                    <div class="team-member">
-                        <div class="member-image">
-                            <span>RP</span>
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Ramachandran Palappalayam Rakkiyannan</h3>
-                            <div class="member-role">Founder</div>
-                        </div>
-                    </div>
-
-                    <!-- Co-Founder -->
-                    <div class="team-member">
-                        <div class="member-image">
-                            <span>AG</span>
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Aravinth Guru Palanisamy</h3>
-                            <div class="member-role">Co-Founder</div>
-                        </div>
-                    </div>
-
-                    <!-- HR & Finance -->
-                    <div class="team-member">
-                        <div class="member-image">
-                            <span>SF</span>
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Sayyada Farhath Jahan</h3>
-                            <div class="member-role">HR & Finance Head</div>
-                        </div>
-                    </div>
-
-                    <!-- Advisor 1 -->
-                    <div class="team-member">
-                        <div class="member-image">
-                            <span>AC</span>
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Cheliyan</h3>
-                            <div class="member-role">Advisor</div>
-                        </div>
-                    </div>
-
-                    <!-- Advisor 2 -->
-                    <div class="team-member">
-                        <div class="member-image">
-                            <span>SR</span>
-                        </div>
-                        <div class="member-info">
-                            <h3 class="member-name">Suresh Rajamani</h3>
-                            <div class="member-role">Advisor</div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </section>
 
         <!-- Industry Reality & Mission -->
-        <section class="section bg-light">
+        <section class="section">
             <div class="container text-center fade-in-up">
                 <h2 style="margin-bottom: var(--spacing-md);">Industry Reality (Why This Matters)</h2>
                 <div style="max-width: 800px; margin: 0 auto;">
@@ -355,56 +495,54 @@
                         failures, and ISO-aligned operations frameworks emphasizing ownership continuity. Our model is
                         built around these realities.</p>
                 </div>
+            </div>
+        </section>
 
+        <!-- Our Mission -->
+        <section class="section" style="background-color: var(--bg-accent); padding: 4rem 0;">
+            <div class="container text-center fade-in-up">
                 <div class="mission-box"
-                    style="margin-top: var(--spacing-md); text-align: left; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    style="text-align: center; max-width: 800px; margin-left: auto; margin-right: auto;">
                     <h3 style="color: var(--primary-color);">Our Mission</h3>
                     <p>To make operational infrastructure:</p>
-                    <ul class="feature-list">
-                        <li>Easy to start</li>
-                        <li>Simple to operate</li>
-                        <li>Reliable over the long term</li>
-                        <li>Scalable as needs grow</li>
-                    </ul>
-                    <p style="margin-top: 1rem; font-weight: 600;">Built on integrity. Committed to you — so you can
+                    <div style="display: inline-grid; grid-template-columns: 1fr 1fr; gap: 2rem; text-align: left; margin: 1rem 0;">
+                        <ul class="feature-list" style="margin-bottom: 0;">
+                            <li>Easy to start</li>
+                            <li>Simple to operate</li>
+                        </ul>
+                        <ul class="feature-list" style="margin-bottom: 0;">
+                            <li>Reliable over the long term</li>
+                            <li>Scalable as needs grow</li>
+                        </ul>
+                    </div>
+                    <p style="margin-top: 1rem; font-weight: 600; color: var(--text-dark);">Built on Integrity. Committed to you — so you can
                         focus on your core business with clarity and confidence.</p>
                 </div>
             </div>
         </section>
 
-        <!-- How This Was Evaluated -->
-        <section class="section">
-            <div class="container text-center fade-in-up">
-                <h4>How This Was Evaluated (Disclosure)</h4>
-                <p style="font-size: 0.9rem; color: var(--text-light);">This content reflects direct experience
-                    operating live systems, post-deployment observations, and feedback from operators managing
-                    uptime-critical environments. No exaggeration, fear-selling, or paid endorsements were used.</p>
-            </div>
-        </section>
+
 
     </main>
 
     <footer>
         <div class="container text-center">
             <h3>AllZiva</h3>
-            <p>Built on integrity. Committed to you — especially after go-live, when operations truly matter.</p>
+            <p>Built on Integrity. Committed to you, especially after go-live, when operations truly matter.</p>
 
             <div class="footer-links">
-                <a href="/">Home</a>
-                <a href="/laundromat-v2.html">Laundromat</a>
-                <a href="/robotics.html">Robotics</a>
-
-                <a href="/upi-payments.html">UPI Payments</a>
-                <a href="/about.html">About Us</a>
-                <a href="/contact.html">Contact Us</a>
+                <a href="index.html">Home</a>
+                <a href="https://laundryziva.com/">Laundromat</a>
+                <a href="robotics.html">Robotics</a>
+                <a href="https://upiziva.com/">UPI Payments</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
             </div>
 
-            <p style="margin-top: var(--spacing-md); font-size: 0.85rem; opacity: 0.6;">&copy; 2026 AllZiva Private
-                Limited. All rights reserved.</p>
+            <p style="margin-top: var(--spacing-md); font-size: 0.85rem; opacity: 0.6;">&copy; 2026 AllZiva Private Limited. All rights reserved.</p>
         </div>
     </footer>
 
-    <script type="module" src="/main.js"></script>
 </body>
 
 </html>
